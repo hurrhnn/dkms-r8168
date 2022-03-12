@@ -1,0 +1,13 @@
+dkms-r8168
+Dynamic Kernel Module Support for realtek ethernet controllers.
+ver. 8.049.02
+
+Install Instruction
+1. install dkms & kernel headers.
+2. git clone https://github.com/hurrhnn/dkms-r8168 --recursive
+3. dkms add ./dkms-r8168
+4. dkms install ./dkms-r8168
+
+Tests
+ - EFM ipTIME PX1G
+ 
