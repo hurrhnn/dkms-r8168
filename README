@@ -7,6 +7,7 @@ Install Instruction
 2. git clone https://github.com/hurrhnn/dkms-r8168 --recursive
 3. dkms add ./dkms-r8168
 4. dkms install ./dkms-r8168
+5. echo 'blacklist r8169' > /etc/modprobe.d/r8169-blacklist.conf
 
 Tests
  - EFM ipTIME PX1G
