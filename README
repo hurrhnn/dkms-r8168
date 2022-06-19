@@ -1,12 +1,12 @@
 dkms-r8168
 Dynamic Kernel Module Support for realtek ethernet controllers.
-ver. 8.049.02
+ver. 8.050.02
 
 Install Instruction
 1. install dkms & linux kernel headers.
 2. git clone https://github.com/hurrhnn/dkms-r8168 --recursive
 3. dkms add ./dkms-r8168
-4. dkms install r8168/8.049.02
+4. dkms install r8168/8.050.02
 5. echo 'blacklist r8169' > /etc/modprobe.d/r8169-blacklist.conf
 
 Tests
